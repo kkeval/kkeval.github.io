@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-    p {
+    header{
+        background:#455a64;
+        height: 10px;
+        transition: 1s ease-in-out;
+    }
+    header:hover{
+        background:#b0bec5;
+        height: 80px;
+    }
+    div{
         color: teal;
         font-family: fantasy;
         font-size: 50px;
         text-align: center;
-        transition: ease-out;
+        transition: 1s ease-in-out;
+    }
+
+    div:hover {   
+        filter: hue-rotate(180deg);
+        font-size: 70px;
     }
     body ul{
         list-style: none;
@@ -19,7 +33,7 @@
         } 
     section {
         color: teal;
-        font-size: large;
+        font-size: larger;
     }   
     a:link, a:visited{
         text-decoration: none;
@@ -31,11 +45,14 @@
         text-anchor: middle;
         text-align: center;
         margin-bottom: 3px;
+        transition: 1s ease-in-out;
         background-color: teal;
         border: 1px solid black
+        
      
     }
     a:hover, a:active{
+        filter: hue-rotate(180deg);
         color: rgb(255, 255, 255);
 
     }
@@ -43,11 +60,16 @@
 </head>
 
 <body>
-    <p>
-        WARRANTY CHECKER
-    </p>   
+    <header>
+        <div>
+            WARRANTY CHECKER
+         </div> 
+    </header>
+     
+<br>
+<br>
 <section>
-    <ul clas="one">
+    <ul>
         <li>Products</li>
             <ul>
                 <li><a href="https://google.com" title="Search youre self"> Laptops</a></li>
