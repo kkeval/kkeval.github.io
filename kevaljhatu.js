@@ -1,2 +1,4 @@
-var keval="Keval jhaatu hai";
-document.getElementById("kevs").innerHTML=keval
+function kek{
+    var keval="Keval jhaatu hai";
+    document.getElementById("kevs").innerHTML=keval;
+}
