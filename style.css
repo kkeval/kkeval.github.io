@@ -6,11 +6,13 @@ body{
 
 }
 header{
+  
     background:#455a64;
     height: 5px;
     transition: 0.5s ease-in-out;
     }
 header:hover{
+
     background:#b0bec5;
     height: 100px;
     }
@@ -23,6 +25,7 @@ div{
     }
 
 div:hover {   
+
     filter: hue-rotate(90deg);
     font-size: 70px;
     }
