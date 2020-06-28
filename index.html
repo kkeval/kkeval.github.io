@@ -1,91 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    header{
-        background:#455a64;
-        height: 10px;
-        transition: 1s ease-in-out;
-    }
-    header:hover{
-        background:#b0bec5;
-        height: 80px;
-    }
-    div{
-        color: teal;
-        font-family: fantasy;
-        font-size: 50px;
-        text-align: center;
-        transition: 1s ease-in-out;
-    }
-
-    div:hover {   
-        filter: hue-rotate(180deg);
-        font-size: 70px;
-    }
-    body ul{
-        list-style: none;
-        color: teal;
-        font-family: fantasy;
-        } 
-    section {
-        color: teal;
-        font-size: larger;
-    }   
-    a:link, a:visited{
-        text-decoration: none;
-        color: black;
-        display: block;
-        border-radius: 10px;
-        width: 120px;
-        height: 20px;
-        text-anchor: middle;
-        text-align: center;
-        margin-bottom: 3px;
-        transition: 1s ease-in-out;
-        background-color: teal;
-        border: 1px solid black
-        
-     
-    }
-    a:hover, a:active{
-        filter: hue-rotate(180deg);
-        color: rgb(255, 255, 255);
-
-    }
-</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check your laptop's warrenty</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     <header>
         <div>
             WARRANTY CHECKER
-         </div> 
+        </div>
     </header>
-     
-<br>
-<br>
-<section>
-    <ul>
-        <li>Products</li>
+    <br />
+    <br />
+    <section>
+        <ul>
+            <li>Products</li>
             <ul>
-                <li><a href="https://google.com" title="Search youre self"> Laptops</a></li>
-                    <ul>
-                        <li><a href="https://support.hp.com/us-en/checkwarranty" title="Check warranty">HP</a></li>
-                        <li><a href="https://www.dell.com/support/home/en-in?app=warranty" title="Check warranty">DELL</a></li>
-                        <li><a href="https://www.acer.com/ac/en/US/content/system-information" title="Check warranty">ACER</a></li>
-                        <li><a href="https://www.asus.com/in/support/warranty-status-inquiry/" title="Check warranty">ASUS</a></li>
-                    </ul>
-                <li>Mobiles</li>
-                <li>Electronics</li>
-            </ul>
-    </ul>
-</section>
-</body>
-<footer>
+                <li>
+                    <a href="https://google.com" title="Search youre self"> Laptops</a>
+                </li>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://support.hp.com/us-en/checkwarranty" title="Check warranty">HP</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.dell.com/support/home/en-in?app=warranty"
+                title="Check warranty"
+                >DELL</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.acer.com/ac/en/US/content/system-information"
+                title="Check warranty"
+                >ACER</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.asus.com/in/support/warranty-status-inquiry/"
+                title="Check warranty"
+                >ASUS</a
+              >
+            </li>
+          </ul>
+          <li>Mobiles</li>
+          <li>Electronics</li>
+        </ul>
+      </ul>
+    </section>
+    <p id="kevs"></p>
+    <script type="text/javascript" src="kevaljhatu.js"></script>
+    <button onclick="kek()">FUUUUUCK</button>
+  </body>
+  <button onclick="myFunction()">Click me</button>
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "gafsgadfgadfgafg";
+    }
+  </script>
+  <footer>
     XYZ@TGMAIL.COM LTD
-</footer>
+  </footer>
 </html>

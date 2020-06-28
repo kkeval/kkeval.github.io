@@ -1,0 +1,66 @@
+p {
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dadada;
+}
+
+header {
+    background: #455a64;
+    height: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+header:hover {
+    background: #b0bec5;
+    height: 100px;
+}
+
+div {
+    color: teal;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+div:hover {
+    filter: hue-rotate(90deg);
+    font-size: 70px;
+}
+
+body ul {
+    list-style: none;
+    color: teal;
+    font-family: fantasy;
+}
+
+section {
+    color: teal;
+    font-size: larger;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 10px;
+    width: 120px;
+    height: 20px;
+    text-anchor: middle;
+    text-align: center;
+    margin-bottom: 3px;
+    transition: 1s ease-in-out;
+    background-color: teal;
+    border: 1px solid black;
+}
+
+a:hover,
+a:active {
+    filter: hue-rotate(180deg);
+    color: rgb(255, 255, 255);
+}
