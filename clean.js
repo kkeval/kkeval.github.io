@@ -1,6 +1,6 @@
 function kek()
 {
-    var keval="Keval jhaatu hai";
+    var keval="My name is Keval";
     document.getElementById("kevs").innerHTML=keval;
     console.log("Hello");
 }
